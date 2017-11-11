@@ -1,0 +1,31 @@
+{
+  "name": "property-watch",
+  "version": "1.0.0",
+  "description": "",
+  "main": "karma.conf.js",
+  "scripts": {
+    "test": "karma start",
+    "dev": "./node_modules/typescript/bin/tsc -w --rootDir src --outDir build"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jasmine": "^2.5.47",
+    "@types/karma": "^0.13.35",
+    "browserify": "^14.3.0",
+    "jasmine-core": "^2.5.2",
+    "karma": "^1.6.0",
+    "karma-browserify": "^5.1.1",
+    "karma-chrome-launcher": "^2.0.0",
+    "karma-jasmine": "^1.1.0",
+    "karma-phantomjs-launcher": "^1.0.4",
+    "karma-source-map-support": "^1.2.0",
+    "karma-sourcemap-loader": "^0.3.7",
+    "phantomjs": "^2.1.7",
+    "typescript": "^2.2.2",
+    "watchify": "^3.9.0"
+  },
+  "dependencies": {
+    "lodash": "^4.17.4"
+  }
+}

@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "inlineSourceMap": true,
+        "typeRoots": [
+          "node_modules/@types"
+        ]
+    },
+    "exclude": [
+        "node_modules"
+    ]
+}
